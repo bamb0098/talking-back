@@ -36,14 +36,15 @@ h1 {
 }
 
 .img-section div#tmpImgDiv .first {
-  top: 14%;
+  top: 13%;
 }
 
 .img-section div#tmpImgDiv .second {
-  top: 79%;
+  top: 78%;
 }
 
-div#tmpImgDiv, img {
+div#tmpImgDiv,
+img {
   max-width: 368px;
 }
 

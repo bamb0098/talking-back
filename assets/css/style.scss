@@ -23,10 +23,9 @@ h1 {
 }
 
 .img-section {
-    div#tmpImgDiv{
+    div#tmpImgDiv {
         position: relative;
         margin: 0 auto;
-
         .talk-text {
             position: absolute;
             font-size: 32px;
@@ -34,19 +33,17 @@ h1 {
             width: 100%;
             font-weight: 500;
         }
-    
         .first {
-            top: 14%;
+            top: 13%;
         }
-    
         .second {
-            top: 79%;
+            top: 78%;
         }
     }
 }
 
-
-div#tmpImgDiv, img {
+div#tmpImgDiv,
+img {
     max-width: 368px;
 }
 
@@ -56,7 +53,6 @@ div#tmpImgDiv, img {
         font-weight: 500;
         margin-bottom: 12px;
     }
-
     input {
         width: 100%;
         height: 52px;
@@ -83,7 +79,6 @@ button {
     font-size: 20px;
     color: white;
     font-weight: 500;
-
     &:hover {
         background: #10a58d;
     }
@@ -93,14 +88,10 @@ button {
     section {
         padding: 16px;
     }
-
     img {
         width: 100%;
     }
-
     button {
         margin: 36px 0;
     }
-
-
 }
